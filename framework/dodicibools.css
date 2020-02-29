@@ -2,7 +2,7 @@
 
 /* regole di contenitore */
 .container{
-  max-width: 1170px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
@@ -289,8 +289,8 @@
   }
 
 
-  /* versione mobile mobile xxs */
-  @media screen and (max-width:420px) {
+/* versione mobile mobile xxs */
+@media screen and (max-width:420px) {
 
     .clear-xxs  {
       display: block;

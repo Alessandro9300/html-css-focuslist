@@ -1,0 +1,170 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Clear Sans", sans-serif;
+}
+
+/* [class*="col-"]{
+  border:solid;
+  min-height: 50px;
+} */
+
+a{
+  text-decoration: none;
+  display: block;
+}
+
+.small-p{
+  color: #9ba6b7;
+  line-height: 1.5;
+  font-size: 17px;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+h1{
+  font-size: 40px;
+}
+
+h2{
+  font-size: 20px;
+  color: blue;
+  margin-bottom: 20px;
+}
+
+h3{
+  font-size: 23px;
+  color: white;
+  margin-top: 30px;
+}
+
+/* header  left*/
+
+header{
+  width: 100%;
+  border: solid;
+  height: 710px;
+  color: white;
+  background: linear-gradient(30deg, #225393, #002351);
+}
+
+.head-article{
+  margin-top: 150px;
+}
+
+.logo{
+  margin-bottom: 40px;
+}
+
+header h1{
+  margin-bottom: 40px;
+}
+
+header p{
+  font-size: 22px;
+  color: #7393c1;
+  line-height: 1.5;
+}
+
+.img-loghetti{
+  float:left;
+}
+
+.col-lg-3 p{
+  float: left;
+  margin-left: 10px;
+  width: 50%;
+  font-size: 12px;
+  color: white;
+}
+
+header .col-lg-3{
+  opacity: 0.5;
+}
+header .col-lg-3:hover{
+  opacity:1;
+}
+
+.links-head{
+  margin-top: 25px;
+}
+
+#mac{
+  position: relative;
+  top: 16px;
+}
+
+
+/* head right */
+
+.head-iphone{
+  background-image: url(http://focuslist.co/images/hero_screenshots.png);
+  margin-top: 50px;
+  height: 686px;
+  width: 466px;
+  background-repeat: no-repeat;
+}
+
+/* fine header */
+
+
+.perfect-titolo{
+  margin: 125px 0 75px 0;
+
+}
+
+.today-list{
+  padding: 0 30px 0 30px;
+}
+
+.li-left{
+  text-align: right;
+}
+
+.li-cent img{
+  width: 100%;
+}
+
+.li-left , .li-right{
+  padding-top: 150px;
+}
+
+.perfect-day{
+  margin-bottom: 100px;
+}
+
+/* fine-sezione1 */
+
+
+.pomodoro-technique{
+  background-color:#2a4b77;
+  padding: 50px 0 50px 0;
+
+}
+
+.pomodoro-technique h1{
+  color: white;
+}
+
+.pomodoro-technique p{
+  color: #7393c1;
+}
+
+.plan-text{
+  margin-bottom: 75px;
+}
+
+.pom{
+  padding: 0 50px 0 50px;
+}
+
+/* fine pomodoro technique */
+
+.track-time{
+  padding: 50px 0 50px 0;
+}
